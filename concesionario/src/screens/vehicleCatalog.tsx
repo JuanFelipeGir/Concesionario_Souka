@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const vehicleCatalog = () => {
   return (
     <View>
-        <Text>hi</Text> 
+        <Text>Catalogo de vehiculos</Text> 
     </View>
   )
 }

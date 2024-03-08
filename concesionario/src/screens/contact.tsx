@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const contact = () => {
   return (
     <View>
-        <Text>contact</Text> 
+        <Text>contacto</Text> 
     </View>
   )
 }

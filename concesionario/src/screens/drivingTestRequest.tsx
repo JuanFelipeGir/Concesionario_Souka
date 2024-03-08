@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const drivingTestRequest = () => {
   return (
     <View>
-        <Text>hi</Text> 
+        <Text>Petición de prueba de manejo</Text> 
     </View>
   )
 }

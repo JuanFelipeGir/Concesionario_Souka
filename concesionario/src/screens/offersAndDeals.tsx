@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const offersAndDeals = () => {
   return (
     <View>
-        <Text>hi</Text> 
+        <Text>Ofertas y promociones</Text> 
     </View>
   )
 }

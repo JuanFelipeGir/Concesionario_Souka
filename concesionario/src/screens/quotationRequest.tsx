@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const quotationRequest = () => {
   return (
     <View>
-        <Text>hi</Text> 
+        <Text>Petición de cotización</Text> 
     </View>
   )
 }

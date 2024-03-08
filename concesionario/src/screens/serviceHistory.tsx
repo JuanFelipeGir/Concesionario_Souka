@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 const serviceHistory = () => {
   return (
     <View>
-        <Text>hi</Text> 
+        <Text>Historial de servicios</Text> 
     </View>
   )
 }
