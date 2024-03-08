@@ -1,14 +1,13 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import Contact from './src/screens/contact'
+import DrivingTestRequest from './src/screens/drivingTestRequest';
+import VehicleCatalog from './src/screens/vehicleCatalog';
 
 const App = () => {
   return (
-    <View>
-      <Text>
-        Concesionario Index 
-      </Text>
-    </View>
-  )
+    <VehicleCatalog/>
+  );
 }
+
 
 export default App
