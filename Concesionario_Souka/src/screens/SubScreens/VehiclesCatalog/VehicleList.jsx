@@ -1,12 +1,12 @@
 import React from 'react'
 import { ScrollView} from 'react-native'
-import Vehiculo from './Vehicle'
+import Vehicle from './Vehicle'
 
 const VehicleList = ({vehicles}) => {
   return (
     <ScrollView>
         {vehicles.map((vehicle)=>(
-            <Vehiculo
+            <Vehicle
                 key={vehicle.id}
                 imageUrl={vehicle.imageUrl}
                 description={vehicle.description}
