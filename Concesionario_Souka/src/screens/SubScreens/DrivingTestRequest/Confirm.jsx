@@ -22,9 +22,6 @@ const Confirm = (route) => {
             <Text>Surname: {Surname}</Text>
             <Text>DNI: {DNI}</Text>
             <Text>Cellphone: {Cellphone} </Text>
-
-
-
         </View>
     </PaperProvider>
   )
