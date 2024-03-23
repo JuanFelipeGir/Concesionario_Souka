@@ -1,11 +1,9 @@
 import React from 'react'
-import { View } from 'react-native'
+import AppointmentFormTD from './SubScreens/DrivingTestRequest/AppointmentFormTD'
 
 const DrivingTestRequest = () => {
   return (
-    <View>
-      
-    </View>
+    <AppointmentFormTD/>
   )
 }
 

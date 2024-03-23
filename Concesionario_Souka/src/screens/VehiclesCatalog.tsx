@@ -1,11 +1,9 @@
 import React from 'react'
-import { View } from 'react-native'
-
+import Catalog from './SubScreens/VehiclesCatalog/Catalog'
+ 
 const VehiclesCatalog = () => {
   return (
-    <View>
-      
-    </View>
+    <Catalog/>
   )
 }
 

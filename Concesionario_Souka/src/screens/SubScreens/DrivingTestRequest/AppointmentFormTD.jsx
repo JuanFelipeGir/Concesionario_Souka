@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { View } from 'react-native'
-import { PaperProvider, Text, TextInput } from 'react-native-paper'
+import { Button, PaperProvider, Text, TextInput } from 'react-native-paper'
 
 const AppointmentFormTD = (navigation) => {
   const [Car, setCar]=useState('');
@@ -25,17 +25,35 @@ const AppointmentFormTD = (navigation) => {
     <PaperProvider>
         <View>
             <Text>Car</Text>
-            <TextInput/>
+            <TextInput 
+            value={Car}
+            onChangeText={Car =>setCar(Car)}/>
             <Text>Date</Text>
-            <TextInput/>
+            <TextInput 
+            value={Date}
+            onChangeText={Date =>setDate(Date)}/>
             <Text>Name</Text>
-            <TextInput/>
+            <TextInput 
+            value={Name}
+            onChangeText={Name =>setName(Name)}/>
             <Text>Surname</Text>
-            <TextInput/>
+            <TextInput 
+            value={Surname}
+            onChangeText={Surname =>setSurname(Surname)}/>
             <Text>DNI</Text>
-            <TextInput/>
+            <TextInput 
+            value={DNI}
+            onChangeText={DNI =>setDNI(DNI)}/>
             <Text>Cellphone</Text>
-            <TextInput/>
+            <TextInput 
+            value={Cellphone}
+            onChangeText={Cellphone =>setCellphone(Cellphone)}/>
+
+            <Button
+              mode='contained'
+              title='Submit' onPress={handleSubmit}>
+                Send
+            </Button>
         </View>
     </PaperProvider>
   )

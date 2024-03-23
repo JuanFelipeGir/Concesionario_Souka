@@ -1,5 +1,5 @@
 import React from 'react'
-import VehiculoList from './VehicleList'
+import VehicleList from './VehicleList';
 
 const Catalog = () => {
   const vehicles = [
@@ -22,7 +22,7 @@ const Catalog = () => {
         price:25000   
     }
 ];
-  return <VehiculoList vehicles={vehicles}/>;
+  return <VehicleList vehicles={vehicles}/>;
 };
 
 export default Catalog
