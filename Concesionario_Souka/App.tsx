@@ -14,6 +14,10 @@ import WorkShopService from './src/screens/WorkShopService'
 import { PaperProvider } from 'react-native-paper'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
+import Service from './src/screens/SubScreens/ServiceHistory/Service'
+import CatalogSV from './src/screens/SubScreens/ServiceHistory/CatalogSV'
+import ServicesList from './src/screens/SubScreens/ServiceHistory/ServiceList'
+
 
 const Stack= createStackNavigator();
 const App = () => {
@@ -27,6 +31,9 @@ const App = () => {
           <Stack.Screen name="Contact" component={Contact}/>
           <Stack.Screen name="DealsAndOffers" component={DealsAndOffers}/>
           <Stack.Screen name="ServiceHistory" component={ServiceHistory}/>
+          <Stack.Screen name="Service" component={Service}/>
+          <Stack.Screen name="CatalogSV" component={CatalogSV}/>
+          <Stack.Screen name="ServiceList" component={ServicesList}/>
           <Stack.Screen name="VehiclesCatalog" component={VehiclesCatalog}/>
           <Stack.Screen name="Catalog"component={Catalog}/>
           <Stack.Screen name="Vehicle" component={Vehicle}/>
