@@ -1,11 +1,9 @@
 import React from 'react'
-import { View } from 'react-native'
+import CatalogSV from './SubScreens/ServiceHistory/CatalogSV'
 
 const ServiceHistory = () => {
   return (
-    <View>
-      
-    </View>
+    <CatalogSV/>
   )
 }
 

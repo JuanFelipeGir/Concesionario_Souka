@@ -1,10 +1,9 @@
 import React from 'react'
+import AppointmentFormTD from './SubScreens/QuotationRequest/AppointmentFormTD'
 
 const QuotatingRequest = () => {
   return (
-    <div>
-      
-    </div>
+      <AppointmentFormTD/>
   )
 }
 

@@ -1,11 +1,9 @@
 import React from 'react'
-import { View } from 'react-native'
+import AppointmentFormTD from './SubScreens/WorkShopService/AppointmentFormTD'
 
 const WorkShopService = () => {
   return (
-    <View>
-      
-    </View>
+      <AppointmentFormTD/>
   )
 }
 
