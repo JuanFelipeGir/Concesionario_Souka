@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View } from 'react-native'
 import { Button, PaperProvider, Text, TextInput } from 'react-native-paper'
 
-const AppointmentFormTD = (navigation) => {
+const WorkService = (navigation) => {
   const [Car, setCar]=useState('');
   const [Name, setName]=useState('');
   const [Brand, setBrand]=useState('');
@@ -59,4 +59,4 @@ const AppointmentFormTD = (navigation) => {
   )
 }
 
-export default AppointmentFormTD
+export default WorkService

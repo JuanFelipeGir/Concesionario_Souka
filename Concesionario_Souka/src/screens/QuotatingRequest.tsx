@@ -1,9 +1,9 @@
 import React from 'react'
-import AppointmentFormTD from './SubScreens/QuotationRequest/AppointmentFormTD'
+import QuotationR from './SubScreens/QuotationRequest/QuotationR'
 
 const QuotatingRequest = () => {
   return (
-      <AppointmentFormTD/>
+      <QuotationR/>
   )
 }
 

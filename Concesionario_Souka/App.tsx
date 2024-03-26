@@ -11,6 +11,7 @@ import ServiceHistory from './src/screens/ServiceHistory'
 import VehiclesCatalog from './src/screens/VehiclesCatalog'
 import VehiclesSearch from './src/screens/VehiclesSearch'
 import WorkShopService from './src/screens/WorkShopService'
+import QuotatingRequest from './src/screens/QuotatingRequest'
 import { PaperProvider } from 'react-native-paper'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
@@ -41,6 +42,7 @@ const App = () => {
           <Stack.Screen name="VehiclesSearch" component={VehiclesSearch}/>
           <Stack.Screen name="WorkShopService" component={WorkShopService}/>
           <Stack.Screen name="DrivingTestRequest" component={DrivingTestRequest}/>
+          <Stack.Screen name="QuotatingRequest" component={QuotatingRequest}/>
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>

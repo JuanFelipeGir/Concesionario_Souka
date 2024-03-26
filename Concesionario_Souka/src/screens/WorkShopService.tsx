@@ -1,9 +1,9 @@
 import React from 'react'
-import AppointmentFormTD from './SubScreens/WorkShopService/AppointmentFormTD'
+import WorkService from './SubScreens/WorkShopService/WorkService'
 
 const WorkShopService = () => {
   return (
-      <AppointmentFormTD/>
+      <WorkService/>
   )
 }
 

@@ -6,3 +6,5 @@ const VehiclesCatalog = () => {
     <Catalog/>
   )
 }
+
+export default VehiclesCatalog

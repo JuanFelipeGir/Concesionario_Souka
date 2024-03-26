@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View } from 'react-native'
 import { Button, PaperProvider, Text, TextInput } from 'react-native-paper'
 
-const AppointmentFormTD = (navigation) => {
+const QuotationR = (navigation) => {
   const [Name, setName]=useState('');
   const [Phone, setPhone]=useState('');
   const [Email, setEmail]=useState('');
@@ -53,4 +53,4 @@ const AppointmentFormTD = (navigation) => {
   )
 }
 
-export default AppointmentFormTD;
+export default QuotationR;
